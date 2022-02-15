@@ -1,12 +1,10 @@
 .home-hero {
   color: #fff;
   background: linear-gradient(
-      to right,
-      rgba($themeClrPrimary, 0.8),
-      rgba($themeClrPrimary, 0.8)
-    ),
-    url(../../assets/svg/common-bg.svg);
-  background-position: center;
+                  to right,
+                  rgba($themeClrPrimary, 0.8),
+                  rgba($themeClrPrimary, 0.8)
+  ) url(../../assets/svg/common-bg.svg) center;
 
   height: 100vh;
 
@@ -188,14 +186,12 @@
 }
 
 .contact {
-  background: linear-gradient(
-      to right,
-      rgba($themeClrPrimary, 0.8),
-      rgba($themeClrPrimary, 0.8)
-    ),
-    url(../../assets/svg/common-bg.svg);
   background-size: cover;
-  background-position: center;
+  background: linear-gradient(
+                  to right,
+                  rgba($themeClrPrimary, 0.8),
+                  rgba($themeClrPrimary, 0.8)
+  ) url(../../assets/svg/common-bg.svg) center;
 
   &__form-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
